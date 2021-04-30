@@ -1,0 +1,263 @@
+{
+	"info": {
+		"_postman_id": "e21849e5-6bfb-4883-a657-cf1e71d922e8",
+		"name": "SingleStone Exercise",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Create Contact Gilkey",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": {\r\n        \"first\": \"Harold\",\r\n        \"middle\": \"Francis\",\r\n        \"last\": \"Gilkey\"\r\n    },\r\n    \"address\": {\r\n        \"street\": \"8360 High Autumn Row\",\r\n        \"city\": \"Cannon\",\r\n        \"state\": \"Delaware\",\r\n        \"zip\": \"19797\"\r\n    },\r\n    \"phone\": [\r\n        {\r\n            \"number\": \"302-611-9148\",\r\n            \"type\": \"home\"\r\n        },\r\n        {\r\n            \"number\": \"302-532-9427\",\r\n            \"type\": \"mobile\"\r\n        }\r\n    ],\r\n    \"email\": \"harold.gilkey@yahoo.com\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:4567/contacts/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4567",
+					"path": [
+						"contacts",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create Contact Straw",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": {\r\n        \"first\": \"Jack\",\r\n        \"middle\": \"K\",\r\n        \"last\": \"Straw\"\r\n    },\r\n    \"address\": {\r\n        \"street\": \"22 Brokedown Palace\",\r\n        \"city\": \"Wichita\",\r\n        \"state\": \"KS\",\r\n        \"zip\": \"20982\"\r\n    },\r\n    \"phone\": [\r\n        {\r\n            \"number\": \"333-222-9148\",\r\n            \"type\": \"home\"\r\n        },\r\n        {\r\n            \"number\": \"555-222-9999\",\r\n            \"type\": \"work\"\r\n        },\r\n        {\r\n            \"number\": \"777-666-8877\",\r\n            \"type\": \"mobile\"\r\n        }\r\n    ],\r\n    \"email\": \"jack.straw@yahoo.com\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:4567/contacts/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4567",
+					"path": [
+						"contacts",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create Contact West",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": {\r\n        \"first\": \"August\",\r\n        \"middle\": \"K\",\r\n        \"last\": \"West\"\r\n    },\r\n    \"address\": {\r\n        \"street\": \"Wharf Drive\",\r\n        \"city\": \"Boston\",\r\n        \"state\": \"MA\",\r\n        \"zip\": \"01890\"\r\n    },\r\n    \"phone\": [\r\n        {\r\n            \"number\": \"444-222-9090\",\r\n            \"type\": \"home\"\r\n        },\r\n        {\r\n            \"number\": \"321-222-3211\",\r\n            \"type\": \"work\"\r\n        },\r\n        {\r\n            \"number\": \"221-534-8877\",\r\n            \"type\": \"mobile\"\r\n        }\r\n    ],\r\n    \"email\": \"august.west@yahoo.com\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:4567/contacts/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4567",
+					"path": [
+						"contacts",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create Contact Jed",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": {\r\n        \"first\": \"Tennessee\",\r\n        \"middle\": \"K\",\r\n        \"last\": \"Jed\"\r\n    },\r\n    \"address\": {\r\n        \"street\": \"Volunteer Drive\",\r\n        \"city\": \"Knoxville\",\r\n        \"state\": \"TN\",\r\n        \"zip\": \"34291\"\r\n    },\r\n    \"phone\": [\r\n        {\r\n            \"number\": \"900-222-9090\",\r\n            \"type\": \"home\"\r\n        },\r\n        {\r\n            \"number\": \"966-222-3211\",\r\n            \"type\": \"work\"\r\n        },\r\n        {\r\n            \"number\": \"344-534-8877\",\r\n            \"type\": \"mobile\"\r\n        }\r\n    ],\r\n    \"email\": \"tennessee.jed@yahoo.com\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:4567/contacts/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4567",
+					"path": [
+						"contacts",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create Contact Lucy",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": {\r\n        \"first\": \"Loose\",\r\n        \"middle\": \"L\",\r\n        \"last\": \"Lucy\"\r\n    },\r\n    \"address\": {\r\n        \"street\": \"11 Dark Alley Dr\",\r\n        \"city\": \"Shadytown\",\r\n        \"state\": \"TX\",\r\n        \"zip\": \"75222\"\r\n    },\r\n    \"phone\": [\r\n        {\r\n            \"number\": \"300-222-3211\",\r\n            \"type\": \"work\"\r\n        },\r\n        {\r\n            \"number\": \"300-534-8877\",\r\n            \"type\": \"mobile\"\r\n        }\r\n    ],\r\n    \"email\": \"loose.lucy@yahoo.com\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:4567/contacts/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4567",
+					"path": [
+						"contacts",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Contact List",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:4567/contacts/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4567",
+					"path": [
+						"contacts",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Call Contact List",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:4567/contacts/contact-list",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4567",
+					"path": [
+						"contacts",
+						"contact-list"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Contact ID=5",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:4567/contacts/5",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4567",
+					"path": [
+						"contacts",
+						"5"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update Contact ID=5",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": {\r\n        \"first\": \"Loose\",\r\n        \"middle\": \"L\",\r\n        \"last\": \"Lucy\"\r\n    },\r\n    \"address\": {\r\n        \"street\": \"11 Grovenors Sq\",\r\n        \"city\": \"Shadytown\",\r\n        \"state\": \"TX\",\r\n        \"zip\": \"75222\"\r\n    },\r\n    \"phone\": [\r\n        {\r\n            \"number\": \"300-222-3211\",\r\n            \"type\": \"work\"\r\n        },\r\n        {\r\n            \"number\": \"300-534-9999\",\r\n            \"type\": \"mobile\"\r\n        }\r\n    ],\r\n    \"email\": \"loose.lucy@gmail.com\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:4567/contacts/5",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4567",
+					"path": [
+						"contacts",
+						"5"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Remove Contact 2",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:4567/contacts/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4567",
+					"path": [
+						"contacts",
+						"2"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

@@ -32,6 +32,7 @@ public class ContactManagement {
 			DBHelper.printSQLException(e);
 		}
 
+		//Map Routes For HTTP Request Types
 		get(Path.LIST, (req, res) -> { return ContactController.listContacts(req, res);} );
 		get(Path.CALLLIST, (req,res) -> {return ContactController.getCallList(req,res);} );
 		post(Path.NEW, "application/json", (req, res) -> { return ContactController.createNewContact(req, res);} );

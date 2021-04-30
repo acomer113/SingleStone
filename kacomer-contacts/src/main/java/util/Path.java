@@ -2,6 +2,7 @@ package util;
 
 public class Path {
 
+	//Define 
 	public static String NEW = "/contacts/"; //create new contact - POST
 	public static String LIST = "/contacts/";  //get all contacts - GET
 	public static String GETID = "/contacts/:id"; //get contact with {id} - GET

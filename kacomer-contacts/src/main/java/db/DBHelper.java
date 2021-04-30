@@ -42,11 +42,11 @@ public class DBHelper {
 	
 	private static String updateContactIDSQL = "UPDATE CONTACTS SET FNAME=?, MNAME=?, LNAME=?, STREET=?, CITY=?, STATE=?, ZIP=?, HOMEPHONE=?, WORKPHONE=?, MOBILEPHONE=?, EMAIL=? WHERE ID = ?";
 
-
 	private static final String grantAccessSQL = "GRANT SELECT, INSERT, UPDATE, DELETE ON CONTACTS TO contactUser;";
 
 	private static Connection getConnection() {
 		Connection connection = null;
+		
 		try {
 			connection = DriverManager.getConnection(jdbcURL, jdbcUsername, jdbcPassword);
 		} catch (SQLException e) {
